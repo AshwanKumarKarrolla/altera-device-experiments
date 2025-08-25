@@ -1,5 +1,42 @@
-*.class
+# Quartus Prime project files
+*.qpf
+*.qsf
+*.sdc
+*.sof
+*.pof
+*.jic
+*.hex
+*.rpt
+*.summary
 *.log
+*.vcd
+*.vwf
+*.vho
+*.vhd
+*.v
+*.bak
+*.db
+*.smsg
+*.done
+*.cmp
+*.pin
+*.map
+*.asm
+*.ttf
+*.eqn
+*.fit
+*.sta
+*.jdi
+*.jtag
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# ModelSim simulation files
+*.wlf
+*.mti
+*.ini
+transcript
+vsim.wlf
+work/
+
+# OS-specific
+.DS_Store
+Thumbs.db
